@@ -1,22 +1,29 @@
+*{
+	padding: 10;
+	margin: 0;
+}
 body {
-	background-color: #FF5E5B;
 	color: #fff;
 	padding: 20px;
 }
+h1, h2 {
+	font-weight: 300;
+}
 header {
-	background-color: #FF1639;
+	background-color: #FFED74;
 	padding:20px;
+	border: 1px black solid;
 }
 nav a{
-	background-color: white;
+	background-color: #E8C66A;
 	padding: 5px;
-	color:#FF5E5B;
 	text-decoration: none;
 	font-family: 'Raleway', sans-serif; 
 }
 nav{
 	text-align: center;
 	font-size: 20px;
+	background-color: #E8C66A;
 }
 h1 {
 	text-transform: uppercase;
@@ -31,6 +38,11 @@ h2 {
 }
 #second {
 	font-family: "raleway", sans-serif;
+}
+#wrapper {
+	width:980px;
+	margin-left: auto;
+	margin-right: auto;
 }
 h3 {
 	text-align: center;
@@ -48,10 +60,24 @@ p{
 }
 strong {
 	font-variant: small-caps;
+	color: black;
+	font-size: 22px;
+}
+aside { 
+	background-color: #FFC675;
+}
+article {
+	background-color: #E89C6C;
+}
+div {
+	background-color: #FFE2B8;
 }
 footer{
-	background-color: #FF1639;
+	background-color: #FFE2B8;
 	padding: 20px;
-	text-align: center;
+	text-align: left;
 	font-family: 'Raleway', sans-serif;
+}
+p{
+	text-align: center;
 }
