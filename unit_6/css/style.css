@@ -48,10 +48,12 @@ h2 {
 	text-align: center;
 }
 #picture {
-	float: left;
+	display: inline-block;
+	width:40%;
 }
 #about {
-	float: right;
+	display: inline-block;
+	width: 58%;
 }
 h3 {
 	text-align: center;
