@@ -5,17 +5,19 @@
 body {
 	color: #fff;
 	padding: 20px;
+	background-color: #FF5E5B;
+	font-family: "raleway", sans-serif;
 }
 h1, h2 {
 	font-weight: 300;
 }
 header {
-	background-color: #FF1639;;
+	background-color: #FF1639;
 	padding:20px;
-	border: 1px black solid;
 }
 nav a{
-	background-color: #E8C66A;
+	background-color: white;
+	color: #FF5E5B;
 	padding: 5px;
 	text-decoration: none;
 	font-family: 'Raleway', sans-serif; 
@@ -23,7 +25,8 @@ nav a{
 nav, button{
 	text-align: center;
 	font-size: 20px;
-	background-color: #E8C66A;
+	background-color: #FF5E5B;
+	font-family: "raleway", sans-serif;
 }
 h1 {
 	text-transform: uppercase;
@@ -46,6 +49,10 @@ h2 {
 }
 #button {
 	text-align: center;
+	text-decoration: none;
+	background-color: white;
+	color: #FF5E5B;
+	padding: 5px;
 }
 #picture {
 	display: inline-block;
@@ -54,6 +61,14 @@ h2 {
 #about {
 	display: inline-block;
 	width: 58%;
+}
+
+.index section {
+
+}
+
+.contact header {
+
 }
 img {
 	width: 100%;
@@ -78,19 +93,21 @@ strong {
 	font-size: 22px;
 }
 article {
-	background-color: #E89C6C;
+	background-color: #FF5E5B;
 	display: inline-block;
 	vertical-align: top;
 	width: 60%;
 }
 div {
-	background-color: #FFE2B8;
+	background-color: #FF5E5B;
 }
-footer{
-	background-color: #FFE2B8;
+footer {
 	padding: 20px;
 	text-align: left;
 	font-family: 'Raleway', sans-serif;
+}
+#footer
+	text-align: center;
 }
 p{
 	text-align: center;
